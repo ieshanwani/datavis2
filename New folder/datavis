@@ -1,0 +1,59 @@
+<html>
+<head>
+<title> Life is a prison</title>
+</head>
+<body>
+
+<h1>Life in Prison</hi>
+
+<a href="http://www.google.com/"> Link to Google!</a>
+
+<script>
+  // These are my prison diaries. I am going to make those dark nights reach you.
+  // Every night was hell in its own way.
+  // This will help us uderstand how life is a prison.
+  
+  // This is my string, which describles my prison location.
+   var myLocationString = "Jamia Millia";
+  console.log("The name of myLocationString is:");
+  console.log(myLocationString); 
+  console.log(typeof(myLocationString));
+  console.log(" ");
+  
+  // This is a number. It describes the location of the prison.
+  var gateNumber = 15;
+  console.log(gateNumber);
+  console.log(typeof(gateNumber));
+  var newGates = 3;
+  console.log('The sum of our gates is:');
+  console.log(gateNumber+newGates);
+  console.log(" ");
+  
+  // This is a boolean. It describes the city in which the prison is located.
+  var isInDelhi = true;
+  console.log("isInDelhi");
+  console.log(gateNumber>newGates);
+  console.log(' ');
+  
+  // Now i am going to create an array. The array will describes the objects in the prison.
+  var prisonArray = ["Bars","Table","Walls","Fan"];
+  console.log(prisonArray);
+  
+  // This is a variable for the length of my prison array. It is one higher than the number of my final item.
+  var prisonArrayLength = prisonArray.length;
+  console.log(prisonArrayLength);
+  var lastItem = prisonArray[prisonArrayLength-1];
+  console.log(lastItem);
+  console.log(" ");
+  
+  // Now I will create an object describe the prison guard.
+  var guard = {
+    name: "Alex",
+	age: 45,
+	hobbies: ['beating','eating','shouting']
+	};
+	console.log(guard);
+
+</script>
+</body>
+</html>
